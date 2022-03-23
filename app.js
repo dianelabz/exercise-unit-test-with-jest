@@ -20,8 +20,7 @@ function fromEuroToDollar(euro) {
     return euro * oneEuroIs.USD
 }
 function fromYenToPound(Yen) {
-    let euro = (Yen / 127.9);
-    let pound = (euro * 0.8);
+    let pound = (Yen * 0.8);
     return pound;
 }
 
